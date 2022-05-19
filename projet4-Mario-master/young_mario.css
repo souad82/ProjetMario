@@ -6,7 +6,7 @@
 
 
 body{
-    background-image: url("./asset/img/body.png");
+    background-image: url("https://c.wallhere.com/photos/34/28/Super_Mario_Super_Mario_Bros_video_games_pixel_art_pixels_clouds_clear_sky_minimalism-1745521.jpg!d");
     
     }
     nav{
@@ -17,7 +17,7 @@ body{
         justify-content: space-between;
         border-bottom: 2px solid rgb(218, 213, 213);
         align-items: center;
-        background-color: #43d317;
+        background-image: url("asset/img/fond\ mario.jpg");
     }
     
     nav ul{
@@ -34,8 +34,11 @@ body{
     li{
         list-style: none;
     }
-    
-    
+    .presentation img {
+
+        width: 45px;
+    }
+
     .logo img{
         width:85px;
         padding: 10px;
@@ -51,4 +54,59 @@ body{
     }
     .jeux img{
         width:40px;
+    }
+    footer{
+        display: flex;
+        justify-items: center;
+        background-color:#e2dfdff9;
+        color: #161313f9;
+        width: 100%;
+        height: 250px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    footer img{
+        width: 25em;
+    }
+    
+    /* footer a{
+        text-decoration: none;
+        color: rgb(34, 31, 31);
+        font-size: 18px;
+        font-family: 'Press Start 2P', cursive;
+    } */
+    
+    ul li button{
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 5px;
+        border-color: rgba(128, 115, 113, 0.774);
+        box-shadow:  3px 4px 3px rgba(189, 167, 167, 0.795);
+        font-family: 'Press Start 2P', cursive;
+        cursor: pointer;
+       
+    
+        
+    }
+    .p1_footer {
+    
+        font-size: 18px;
+        padding: 20px;
+        margin: 20px;
+        font-family: 'Press Start 2P', cursive;
+        color: black;
+      
+    }
+    
+    .p2_footer{
+        font-size: 10px;
+        padding: 20px;
+        margin: 20px;
+        font-family: 'Press Start 2P', cursive;
+        color: black;
+        
+    
     }

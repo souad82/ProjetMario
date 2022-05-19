@@ -5,7 +5,7 @@
 }
 
 body{
-background-image: url("./asset/img/body.png");
+background-image: url("https://c.wallhere.com/photos/34/28/Super_Mario_Super_Mario_Bros_video_games_pixel_art_pixels_clouds_clear_sky_minimalism-1745521.jpg!d");
 
 }
 nav{
@@ -16,7 +16,7 @@ nav{
     justify-content: space-between;
     border-bottom: 2px solid rgb(218, 213, 213);
     align-items: center;
-    background-color: #43d317;
+    background-image: url("asset/img/fond\ mario.jpg");
 }
 
 nav ul{
@@ -40,7 +40,10 @@ li{
     padding: 10px;
 }
 
+.presentation img{
+    width:45px;
 
+}
 .mario_pixel img {
     width:40px;
 }
