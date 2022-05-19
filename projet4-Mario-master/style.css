@@ -44,6 +44,20 @@ li{
     width:45px;
 
 }
+
+
+
+#icon svg {
+    width: 60px;
+    color: black;
+    
+}
+
+#icon{
+    padding: 20px;
+    cursor: pointer;
+}
+
 .mario_pixel img {
     width:40px;
 }
