@@ -39,7 +39,42 @@
 
         </ul>
     </nav>
+<!-- Sound-->
 
+<div class="playSong">
+    
+    <img src="./asset/img/IcRoundPlayArrow.svg" id="icon">
+</div>
+
+<audio autoplay id="mySong">
+  <source src="./asset/audiomario.mp3" type="audio/mp3">
+</audio>
+
+<script>
+    //let bodyAll = document.querySelector("body")
+    let mySong = document.getElementById("mySong");
+    let icon = document.getElementById("icon");
+    // bodyAll.addEventListener("mousemove",e=> {
+    //     mySong.play();
+    // });
+    
+    icon.onclick= function(){
+          if(mySong.paused){
+                mySong.play();
+                icon.src="./asset/img/IcRoundVolumeUp.svg";
+          }
+          else{
+                mySong.pause();
+                icon.src = "./asset/img/IcRoundVolumeOff.svg"
+                
+
+          }
+          
+      }
+      
+        
+          
+</script>
 <h1><ul class="mot">
     <li>M</li>
     <li>A</li>
