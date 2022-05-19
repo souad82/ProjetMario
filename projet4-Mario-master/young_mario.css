@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("./asset/img/body.png");
+    
+    }
+    nav{
+        /* background-color:rgba(255, 255, 255, 0.932); */
+        
+        height:80px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid rgb(218, 213, 213);
+        align-items: center;
+        background-color: #43d317;
+    }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    ul li{
+    padding: 10px;
+    }
+    
+    
+    li{
+        list-style: none;
+    }
+    
+    
+    .logo img{
+        width:85px;
+        padding: 10px;
+    }
+    
+    
+    .mario_pixel img {
+        width:40px;
+    }
+    
+    .mario_new img{
+        width:35px;
+    }
+    .jeux img{
+        width:40px;
+    }
